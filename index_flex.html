@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang='en'>
-<head>
-    <meta charset='UTF-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Flex Layout</title>
-    <link rel='stylesheet' href='index_flex.css'>
-</head>
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Flex Layout</title>
+        <link rel='stylesheet' href='index_flex.css'>
+    </head>
 <body>
-    <div class='container'>
-        <div class='flex-container'>
+        <div class='flex-container'><!--konteinris apjungiantis turinį-->
+            <!-- Pirmoji eilutė užimanti 100% -->
             <div class='flex-item-1'>
                 <h1 id='main-heading'>Minimali struktura</h1>
                 <div class='row clearfix'>
@@ -25,22 +25,24 @@
                     </div>
                 </div>
             </div>
+            <!-- Antros eilutės pirmas stulpelis užimantis 50% -->
             <div class='flex-item-2'>
                 <p>Vivamus magna justo, lacinia eget consectetur sed,
-                convallis at tellus. <br> Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
-                Nulla quis lorem ut libero malesuada feugiat.
-                Nulla quis lorem ut libero malesuada feugiat.
-                Vestibulum ante ipsum primis in faucibus orci luctus et
-                ultrices posuere cubilia Curae; Donec velit neque,
-                auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-                Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Sed porttitor lectus nibh. Curabitur
-                arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+                    convallis at tellus. <br> Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+                    Nulla quis lorem ut libero malesuada feugiat.
+                    Nulla quis lorem ut libero malesuada feugiat.
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia Curae; Donec velit neque,
+                    auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                    Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Sed porttitor lectus nibh. Curabitur
+                    arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
             </div>
+            <!-- Antros eilutės antras stulpelis užimantis 50% -->
             <div class='flex-item-3'>
                 <a href='https://google.lt'>Einame i Google Be Naujo Tab'o</a><br>
                 <br>
@@ -50,6 +52,7 @@
                 <br>
                 <a href='about.html' target='_blank'>Einame i vidini about.html puslapi su nauju tab</a>
             </div>
+            <!-- trečios eilutės pirmas stulpelis užimantis 66,66.66% -->
             <div class='flex-item-4'>
                 <h1>Antra paskaita</h1> 
                 <ol>
@@ -69,6 +72,7 @@
                     <li>Svoguno</li>
                 </ul>
             </div>
+            <!-- trečios eilutės antras stulpelis užimantis 33.33% -->
             <div class='flex-item-5'>
                 <h1>This is a Heading</h1>
                 <h2>This is a Heading</h2>
@@ -78,8 +82,9 @@
                 <h5>This is a Heading</h5>
                 <h6>This is a Heading</h6>
             </div>
+            <!-- ketvirta eilutė paskirstyta į tris lygias dalis (po 33,33%)-->
             <div class='flex-item-6'>
-                <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogodownload.org%2Fwp-content%2Fuploads%2F2014%2F09%2Fgoogle-logo-1.png&f=1&nofb=1' alt='Pirmas paveiksliukas'>  
+                <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogodownload.org%2Fwp-content%2Fuploads%2F2014%2F09%2Fgoogle-logo-1.png&f=1&nofb=1' alt='Pirmas paveiksliukas' > 
             </div>
             <div class='flex-item-7'>
                 <img src='https://i.pinimg.com/474x/0e/71/f7/0e71f7f5e2fff03603a0898983fc0353.jpg' alt='Antras paveiksliukas'>
@@ -87,7 +92,6 @@
             <div class='flex-item-8'>
                 <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi3IJfaYKkzuDEQG8sKI9HaBKLznHejD0clw&usqp=CAU' alt='trecias paveiksleis'>
             </div>
-        </div>
-    </div>
+    </div><!--konteineris uždaromas-->
 </body>
 </html>
